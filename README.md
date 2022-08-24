@@ -1,7 +1,7 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
-
-<p align="center">
-
 Примеры реализации Swagger
+
+https://www.youtube.com/watch?v=p3Z3RR091Wk
 https://github.com/caohoangtu/swagger-lesson-1
+
+https://www.youtube.com/watch?v=jq4UZiUC5Tg
 https://github.com/caohoangtu/swagger-api-version
