@@ -3,15 +3,15 @@
 namespace App\Http\Controllers\People;
 
 use App\Http\Controllers\Controller;
-use App\Models\Person;
+use App\Models\People;
 
 class DeleteController extends Controller
 {
-    public function __invoke(Person $person)
+    public function __invoke(People $people)
     {
-        $person->delete();
+        $people->delete();
 
         // После удаления возвращаем метод response([]) с пустым массивом внутри
-        return response([]);
+        return redirect()->route('people.index');
     }
 }

@@ -22,8 +22,9 @@
             <div class="container-fluid">
                 <!-- Small boxes (Stat box) -->
                 <div class="row">
-                    <div class="col-1 mb-3">
+                    <div class="col-2 mb-3">
                         <a href="{{ route('people.create') }}" class="btn btn-block btn-primary">Добавить</a>
+                        <a href="{{ route('people.json') }}" class="btn btn-block btn-primary">J-SON</a>
                     </div>
                 </div>
                 <div class="row">
@@ -43,8 +44,8 @@
                                     <tbody>
                                     @foreach($peoples as $people)
                                         <tr>
-                                            <td>{{ $people->id }}</td>
-                                            <td>{{ $people->name }}</td>
+                                            <td> {{ $people->id }}</td>
+                                            <td><a href="{{ route('people.show', $people->id) }}"> {{ $people->name }}</td>
                                             <td>{{ $people->email }}</td>
                                             </td>
                                         </tr>
